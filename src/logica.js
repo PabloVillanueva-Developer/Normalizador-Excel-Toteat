@@ -83,9 +83,14 @@ fileLoadDetection.addEventListener('change', (e) => { // evento para detectar la
                 // Quitar el enlace del DOM
                 document.body.removeChild(a);
         };
-    }
- 
+    }  
+    setTimeout(() => {
+        fileLoadDetection.value = '' // borra archivo cargado en input para que se pueda volver a utilizar
+    }, 3000);
+   
 });
+
+
 
 
 
