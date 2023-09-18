@@ -89,16 +89,15 @@ fileLoadDetection.addEventListener('change', (e) => { // evento para detectar la
 
 
 
+
+
 /* AJUSTES */
 
-// Ver si puedo lograr que se baje directo en XLSX (ver en internet que funcion tiene sheet JS para hacer un blob y luego descargarlo)
-// DESCARGAR SHEET JS EN EL PROYECTO PARA NO DEPENDER DE ESTAR ONLINE
-// 
-// HACER ALGUNAS PRUEBAS MAS PARA ASEGURAR QUE TODO FUNCIONES CORRECTAMENTE (INCULOS PROBAR EN OTRA PC)
-// ARMAR INSTRUCTIVO DE USO para que se vea en la aplicacion
+// Ver si puedo lograr que se baje directo en XLSX en vez del .CSV)
+// Reiniciar input para que el script se pueda volver a usar sin actualizar.
 // Pasarme las sentencias Sheet JS a notion
 
-/* CONDICIONES DE USO */
+
 
 
 
