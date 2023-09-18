@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <div  class="div__button">
+        <input class="button" id="fileLoadDetection" type="file">
+    </div>
+
+    <ol class="styles"> INSTRUCCIONES
+        <li>Cargar archivo en boton "Seleccionar Archivo". A continuacion se descargara automaticamente en el navegador el archivo procesado</li>
+        <li>Debe agregarse al Excel original una primer columna con el codigo de cada local.</li>
+        <li>Eliminar la columna final de Totales, ya que sino sera considerada como un valor mas a procesar.</li>
+        <li>Alinear fechas cuando se arma el reporte base</li>
+        <li>Solo debe haber una linea de encabezado con las fechas en la fila 1. El resto de los datos deben ser valores</li>
+    </ol>
+    <ul>
+        <li>EJEMPLO</li>
+    </ul>
+        
+    <div class="div__img">
+        <img class="img" src="./src/ejemplo.png" alt="">
+    </div>
+    
+
+   
+    <script lang="javascript" src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script>
+    <script src="./src/logica.js"></script> 
+</body>
+</html>

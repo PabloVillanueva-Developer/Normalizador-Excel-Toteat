@@ -1,0 +1,20 @@
+
+.div__button {
+padding-top: 2rem;
+padding-left: 2rem;
+display: flex;
+justify-content: center;
+}
+
+.styles{
+   margin-top: 1rem;
+}
+
+.div__img {
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    width: 65rem;
+}
